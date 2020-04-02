@@ -1,0 +1,6 @@
+framework module Pods_FinalPro_POSTests {
+  umbrella header "Pods-FinalPro_POSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

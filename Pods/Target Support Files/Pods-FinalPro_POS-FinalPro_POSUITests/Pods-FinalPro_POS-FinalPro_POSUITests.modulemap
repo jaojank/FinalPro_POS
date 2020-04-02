@@ -1,0 +1,6 @@
+framework module Pods_FinalPro_POS_FinalPro_POSUITests {
+  umbrella header "Pods-FinalPro_POS-FinalPro_POSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
