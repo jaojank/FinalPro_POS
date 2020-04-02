@@ -37,7 +37,7 @@ class reportVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     func setChartValues(){
-        let values = (0..<3).map {(i) -> ChartDataEntry in
+        let values = (0..<8).map {(i) -> ChartDataEntry in
             let val = Double(UInt32())
             return ChartDataEntry(x: Double(i), y:val)
         }
