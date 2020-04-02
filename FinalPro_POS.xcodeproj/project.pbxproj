@@ -13,6 +13,8 @@
 		C308CEB824346CEE001BEB1D /* menuOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308CEB724346CEE001BEB1D /* menuOrderVC.swift */; };
 		C308CEBA24346DCA001BEB1D /* menuOrderVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308CEB924346DCA001BEB1D /* menuOrderVCell.swift */; };
 		C308CEBC243625D9001BEB1D /* reportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308CEBB243625D9001BEB1D /* reportVC.swift */; };
+		C308CEBF243637A4001BEB1D /* bgLogin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C308CEBD243637A3001BEB1D /* bgLogin.jpg */; };
+		C308CEC0243637A4001BEB1D /* bgSignup.png in Resources */ = {isa = PBXBuildFile; fileRef = C308CEBE243637A4001BEB1D /* bgSignup.png */; };
 		C31F7B4C242C7A4000C02E93 /* numTaleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31F7B4B242C7A4000C02E93 /* numTaleVC.swift */; };
 		C31F7B52242CAD2600C02E93 /* collecVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31F7B51242CAD2600C02E93 /* collecVCell.swift */; };
 		C3B125272421D9D400BCCCCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B125262421D9D400BCCCCD /* AppDelegate.swift */; };
@@ -24,13 +26,11 @@
 		C3B1253E2421D9DA00BCCCCD /* FinalPro_POSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1253D2421D9DA00BCCCCD /* FinalPro_POSTests.swift */; };
 		C3B125492421D9DA00BCCCCD /* FinalPro_POSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B125482421D9DA00BCCCCD /* FinalPro_POSUITests.swift */; };
 		C3B125572421DA8900BCCCCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3B125562421DA8900BCCCCD /* GoogleService-Info.plist */; };
-		C3B1255A2421DED700BCCCCD /* bgLogin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3B125592421DED600BCCCCD /* bgLogin.jpg */; };
 		C3B1255C2421FAE300BCCCCD /* signInBBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B1255B2421FAE200BCCCCD /* signInBBG.png */; };
 		C3B1255E2421FE2800BCCCCD /* signinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1255D2421FE2800BCCCCD /* signinVC.swift */; };
 		C3B125622422157800BCCCCD /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B125612422157800BCCCCD /* MenuVC.swift */; };
 		C3B12564242215B700BCCCCD /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B12563242215B700BCCCCD /* menuCell.swift */; };
 		C3B125662422262000BCCCCD /* signupBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B125652422262000BCCCCD /* signupBG.png */; };
-		C3B12568242363D100BCCCCD /* bgSignup.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B12567242363D100BCCCCD /* bgSignup.png */; };
 		C3B1256A242371C800BCCCCD /* aimateTest.json in Resources */ = {isa = PBXBuildFile; fileRef = C3B12569242371C800BCCCCD /* aimateTest.json */; };
 		C3B1256C2423822100BCCCCD /* addVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1256B2423822100BCCCCD /* addVC.swift */; };
 /* End PBXBuildFile section */
@@ -64,6 +64,8 @@
 		C308CEB724346CEE001BEB1D /* menuOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuOrderVC.swift; sourceTree = "<group>"; };
 		C308CEB924346DCA001BEB1D /* menuOrderVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuOrderVCell.swift; sourceTree = "<group>"; };
 		C308CEBB243625D9001BEB1D /* reportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reportVC.swift; sourceTree = "<group>"; };
+		C308CEBD243637A3001BEB1D /* bgLogin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgLogin.jpg; sourceTree = "<group>"; };
+		C308CEBE243637A4001BEB1D /* bgSignup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgSignup.png; sourceTree = "<group>"; };
 		C31F7B4B242C7A4000C02E93 /* numTaleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numTaleVC.swift; sourceTree = "<group>"; };
 		C31F7B51242CAD2600C02E93 /* collecVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collecVCell.swift; sourceTree = "<group>"; };
 		C3B125232421D9D400BCCCCD /* FinalPro_POS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalPro_POS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,13 +83,11 @@
 		C3B125482421D9DA00BCCCCD /* FinalPro_POSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPro_POSUITests.swift; sourceTree = "<group>"; };
 		C3B1254A2421D9DA00BCCCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3B125562421DA8900BCCCCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C3B125592421DED600BCCCCD /* bgLogin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bgLogin.jpg; path = "../../../../Desktop/แอพPos Deign UI:Ux/bgLogin.jpg"; sourceTree = "<group>"; };
 		C3B1255B2421FAE200BCCCCD /* signInBBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signInBBG.png; path = "../../../../Desktop/แอพPos Deign UI:Ux/signInBBG.png"; sourceTree = "<group>"; };
 		C3B1255D2421FE2800BCCCCD /* signinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinVC.swift; sourceTree = "<group>"; };
 		C3B125612422157800BCCCCD /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		C3B12563242215B700BCCCCD /* menuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
 		C3B125652422262000BCCCCD /* signupBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signupBG.png; path = "../../../../Desktop/แอพPos Deign UI:Ux/signupBG.png"; sourceTree = "<group>"; };
-		C3B12567242363D100BCCCCD /* bgSignup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgSignup.png; path = "../../../../Desktop/แอพPos Deign UI:Ux/bgSignup.png"; sourceTree = "<group>"; };
 		C3B12569242371C800BCCCCD /* aimateTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aimateTest.json; path = ../../../Downloads/aimateTest.json; sourceTree = "<group>"; };
 		C3B1256B2423822100BCCCCD /* addVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addVC.swift; sourceTree = "<group>"; };
 		DDC401F55E99C25E90F610F4 /* Pods-FinalPro_POS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalPro_POS.release.xcconfig"; path = "Target Support Files/Pods-FinalPro_POS/Pods-FinalPro_POS.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,10 +213,10 @@
 		C3B125582421DEC900BCCCCD /* pic */ = {
 			isa = PBXGroup;
 			children = (
-				C3B12567242363D100BCCCCD /* bgSignup.png */,
+				C308CEBD243637A3001BEB1D /* bgLogin.jpg */,
+				C308CEBE243637A4001BEB1D /* bgSignup.png */,
 				C3B125652422262000BCCCCD /* signupBG.png */,
 				C3B1255B2421FAE200BCCCCD /* signInBBG.png */,
-				C3B125592421DED600BCCCCD /* bgLogin.jpg */,
 			);
 			path = pic;
 			sourceTree = "<group>";
@@ -331,13 +331,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B125332421D9D900BCCCCD /* LaunchScreen.storyboard in Resources */,
-				C3B12568242363D100BCCCCD /* bgSignup.png in Resources */,
 				C3B1256A242371C800BCCCCD /* aimateTest.json in Resources */,
 				C3B1255C2421FAE300BCCCCD /* signInBBG.png in Resources */,
 				C3B125572421DA8900BCCCCD /* GoogleService-Info.plist in Resources */,
 				C3B125302421D9D900BCCCCD /* Assets.xcassets in Resources */,
-				C3B1255A2421DED700BCCCCD /* bgLogin.jpg in Resources */,
 				C3B1252E2421D9D400BCCCCD /* Main.storyboard in Resources */,
+				C308CEBF243637A4001BEB1D /* bgLogin.jpg in Resources */,
+				C308CEC0243637A4001BEB1D /* bgSignup.png in Resources */,
 				C3B125662422262000BCCCCD /* signupBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
