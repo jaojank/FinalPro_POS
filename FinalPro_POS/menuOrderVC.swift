@@ -178,6 +178,8 @@ class menuOrderVC: UIViewController , UITableViewDataSource, UITableViewDelegate
       func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
               test.text = self.countFood[row]
               test.resignFirstResponder()
+        print("-----")
+        print(test.text!)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -264,13 +266,15 @@ extension menuOrderVC : dataCollectionProtocol{
 //                print(self.userList[self.userName[self.num]])
                 
             }
+            let test2 = test
             alertController.addTextField { (textField) in
                 textField.inputView = self.pickerView
                 textField.placeholder = "จำนวนอาหาร"
                 textField.textAlignment = .center
-                textField.text = self.test.text
+                textField.text = test2.text
                 print("=====")
-                print(self.test.text)
+                print(test2.text)
+                
             }
             let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in }
             
