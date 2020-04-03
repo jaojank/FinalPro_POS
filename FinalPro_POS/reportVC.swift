@@ -16,9 +16,10 @@ class reportVC: UIViewController {
     var foodList:Dictionary = [String:[String:Any]]()
     var foodName:Array = [String]()
     var email:String = ""
-    var bank:String = ""
-    
+
     @IBAction func btnTable(_ sender: Any) {
+        
+        
     }
     @IBAction func btnMenu(_ sender: Any) {
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
