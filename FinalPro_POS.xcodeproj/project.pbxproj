@@ -26,12 +26,9 @@
 		C3B125332421D9D900BCCCCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B125312421D9D900BCCCCD /* LaunchScreen.storyboard */; };
 		C3B1253E2421D9DA00BCCCCD /* FinalPro_POSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1253D2421D9DA00BCCCCD /* FinalPro_POSTests.swift */; };
 		C3B125492421D9DA00BCCCCD /* FinalPro_POSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B125482421D9DA00BCCCCD /* FinalPro_POSUITests.swift */; };
-		C3B1255C2421FAE300BCCCCD /* signInBBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B1255B2421FAE200BCCCCD /* signInBBG.png */; };
 		C3B1255E2421FE2800BCCCCD /* signinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1255D2421FE2800BCCCCD /* signinVC.swift */; };
 		C3B125622422157800BCCCCD /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B125612422157800BCCCCD /* MenuVC.swift */; };
 		C3B12564242215B700BCCCCD /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B12563242215B700BCCCCD /* menuCell.swift */; };
-		C3B125662422262000BCCCCD /* signupBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B125652422262000BCCCCD /* signupBG.png */; };
-		C3B1256A242371C800BCCCCD /* aimateTest.json in Resources */ = {isa = PBXBuildFile; fileRef = C3B12569242371C800BCCCCD /* aimateTest.json */; };
 		C3B1256C2423822100BCCCCD /* addVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1256B2423822100BCCCCD /* addVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -83,12 +80,9 @@
 		C3B125442421D9DA00BCCCCD /* FinalPro_POSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalPro_POSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B125482421D9DA00BCCCCD /* FinalPro_POSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPro_POSUITests.swift; sourceTree = "<group>"; };
 		C3B1254A2421D9DA00BCCCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3B1255B2421FAE200BCCCCD /* signInBBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signInBBG.png; path = "../../../../Desktop/แอพPos Deign UI:Ux/signInBBG.png"; sourceTree = "<group>"; };
 		C3B1255D2421FE2800BCCCCD /* signinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinVC.swift; sourceTree = "<group>"; };
 		C3B125612422157800BCCCCD /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		C3B12563242215B700BCCCCD /* menuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
-		C3B125652422262000BCCCCD /* signupBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signupBG.png; path = "../../../../Desktop/แอพPos Deign UI:Ux/signupBG.png"; sourceTree = "<group>"; };
-		C3B12569242371C800BCCCCD /* aimateTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aimateTest.json; path = ../../../Downloads/aimateTest.json; sourceTree = "<group>"; };
 		C3B1256B2423822100BCCCCD /* addVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addVC.swift; sourceTree = "<group>"; };
 		DDC401F55E99C25E90F610F4 /* Pods-FinalPro_POS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalPro_POS.release.xcconfig"; path = "Target Support Files/Pods-FinalPro_POS/Pods-FinalPro_POS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +141,6 @@
 		C3B1251A2421D9D400BCCCCD = {
 			isa = PBXGroup;
 			children = (
-				C3B12569242371C800BCCCCD /* aimateTest.json */,
 				C3B125582421DEC900BCCCCD /* pic */,
 				C3B125252421D9D400BCCCCD /* FinalPro_POS */,
 				C3B1253C2421D9DA00BCCCCD /* FinalPro_POSTests */,
@@ -215,8 +208,6 @@
 			children = (
 				C308CEBD243637A3001BEB1D /* bgLogin.jpg */,
 				C308CEBE243637A4001BEB1D /* bgSignup.png */,
-				C3B125652422262000BCCCCD /* signupBG.png */,
-				C3B1255B2421FAE200BCCCCD /* signInBBG.png */,
 			);
 			path = pic;
 			sourceTree = "<group>";
@@ -331,14 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B125332421D9D900BCCCCD /* LaunchScreen.storyboard in Resources */,
-				C3B1256A242371C800BCCCCD /* aimateTest.json in Resources */,
 				C308CEC2243646DB001BEB1D /* GoogleService-Info.plist in Resources */,
-				C3B1255C2421FAE300BCCCCD /* signInBBG.png in Resources */,
 				C3B125302421D9D900BCCCCD /* Assets.xcassets in Resources */,
 				C3B1252E2421D9D400BCCCCD /* Main.storyboard in Resources */,
 				C308CEBF243637A4001BEB1D /* bgLogin.jpg in Resources */,
 				C308CEC0243637A4001BEB1D /* bgSignup.png in Resources */,
-				C3B125662422262000BCCCCD /* signupBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
