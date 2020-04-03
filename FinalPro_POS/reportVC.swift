@@ -16,6 +16,7 @@ class reportVC: UIViewController {
     var foodList:Dictionary = [String:[String:Any]]()
     var foodName:Array = [String]()
     var email:String = ""
+    var Bank:String = ""
 
     @IBAction func btnTable(_ sender: Any) {
         
