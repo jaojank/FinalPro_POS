@@ -153,9 +153,9 @@ class signinVC: UIViewController , MFMailComposeViewControllerDelegate{
     func configMail() -> MFMailComposeViewController {
         let mailCompose = MFMailComposeViewController()
         mailCompose.mailComposeDelegate = self
-        mailCompose.setToRecipients(["\(txtUser.text!)"])
+        mailCompose.setToRecipients(["bbankk26@gmail.com"])
         mailCompose.setSubject("ยินต้อนรับ")
-        mailCompose.setMessageBody("<b>ขอบคุณที่ไว้วางใจใช้บรการระบบจัดการร้านของแอพเรา</b>", isHTML: true)
+        mailCompose.setMessageBody("ขอบคุณที่ไว้วางใจใช้บรการระบบจัดการร้านของแอพเรา", isHTML:false)
        
         return mailCompose
     }
