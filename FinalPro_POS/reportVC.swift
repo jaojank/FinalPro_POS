@@ -16,8 +16,6 @@ class reportVC: UIViewController {
     var foodList:Dictionary = [String:[String:Any]]()
     var foodName:Array = [String]()
     var email:String = ""
-     var ema:String = ""
-    
 
     @IBAction func btnTable(_ sender: Any) {
         
@@ -41,7 +39,8 @@ class reportVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     func setChartValues(){
-        let values = (0..<30).map {(i) -> ChartDataEntry in
+
+        let values = (0..<20).map {(i) -> ChartDataEntry in
             //dfsgsfdh
             let val = Double(UInt32())
             return ChartDataEntry(x: Double(i), y:val)
